@@ -41,7 +41,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const currentPath = usePathname();
 
-  if(currentPath === '/dashboard' || currentPath === '/profile'){
+  if(currentPath === '/dashboard' || currentPath === '/profile' || currentPath === '/settings'){
     return
   }
 
