@@ -1,16 +1,15 @@
 import { role } from "@/app/lib/data";
 import Image from "next/image";
 import Link from "next/link";
-import Home from "@/app/images/attendance.png"
 
 const menuItems = [
   {
     title: "MENU",
     items: [
       {
-        icon: Home,
+        icon: "/home.png",
         label: "Home",
-        href: "/",
+        href: "/dashboard",
         visible: ["admin", "teacher", "student", "parent"],
       },
       {

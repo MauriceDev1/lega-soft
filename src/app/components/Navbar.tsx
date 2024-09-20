@@ -49,9 +49,10 @@ export default function Navbar() {
     <header className="bg-white sticky top-0 z-50">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5">
+          <Link href="/" className="-m-1.5 p-1.5 flex items-center">
             <span className="sr-only">Your Company</span>
-            <img alt="" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" className="h-8 w-auto" />
+            <img alt="" src="/logo.png" className="h-8 w-auto" />
+            <h1>ELS</h1>
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -133,7 +134,7 @@ export default function Navbar() {
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                src="/logo.png"
                 className="h-8 w-auto"
               />
             </Link>
