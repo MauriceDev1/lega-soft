@@ -6,7 +6,7 @@ export default function Footer() {
     const currentPath = usePathname();
 
 
-    if(currentPath === '/dashboard' || currentPath === '/login' || currentPath === '/sign-up'){
+    if(currentPath === '/dashboard' || currentPath === '/profile' || currentPath === '/login' || currentPath === '/sign-up'){
         return
     }
 
